@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 30px;
+    background-color: red;
+    ////первый подход
+    //@media (max-width: 1000px) {
+    //    background-color: blue;
+    //}
+    //
+    //@media (max-width: 500px) {
+    //    background-color: green;
+    //}
+
+    //второй подход
+    @media (min-width: 500px) {
+        background-color: green;
+    }
+
+    @media (max-width: 1000px) {
+        background-color: blue;
+    }
+}
+
+/*.col{*/
+/*    background-color: gray;*/
+/*    border: solid black;*/
+/*}*/
+
+.block {
+    background-color: dodgerblue;
+    border: solid 1px green;
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+}
+
+.header {
+    min-height: 90px;
+    margin-bottom: 130px;
+}
+
+.promo {
+    min-height: 460px;
+    margin-bottom: 110px;
+}
+
+.logo {
+    min-height: 80px;
+    margin-bottom: 170px;
+}
+
+.price {
+    min-height: 438px;
+    margin-bottom: 235px;
+}
+
+.employee {
+    min-height: 365px;
+    margin-bottom: 180px;
+}
+
+.footer {
+    min-height: 380px;
+}
+
+

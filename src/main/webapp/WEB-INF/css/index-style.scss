@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 10px;
+  background-color: cornflowerblue;
+  //первый подход
+  @media (max-width: 1000px) {
+    background-color: blue;
+  }
+
+  @media (max-width: 500px) {
+    background-color: green;
+  }
+}
+
+//.col {
+//  background-color: green;
+//  border: solid black;
+//}
+
+.block {
+  background-color: dodgerblue;
+  border: solid 1px green;
+  padding: 20px;
+  height: 100%;
+}
+
+.first{
+  min-height: 250px;
+  margin-bottom: 50px;
+}
+
+.second{
+  min-height: 10px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.third{
+  min-height: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.fourth{
+  min-height: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+
